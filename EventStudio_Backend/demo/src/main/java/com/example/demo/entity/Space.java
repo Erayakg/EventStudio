@@ -15,5 +15,4 @@ public class Space extends BaseEntity {
 
     private String spaceName = "Default Space";
 
-
 }
