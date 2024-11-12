@@ -10,7 +10,6 @@ import java.util.UUID;
 @Table(name = "sponsorships")
 public class Sponsorship extends BaseEntity{
 
-
     @ManyToOne
     @JoinColumn(name = "organization_id", nullable = false)
     private Organization organization;

@@ -5,9 +5,8 @@ import java.time.ZonedDateTime;
 
 @Entity
 @Table(name = "producers")
+@Data
 public class Producer extends BaseEntity {
-
-
 
     private String name;
 
